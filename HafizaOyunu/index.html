@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Hafıza Oyunu</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+			<a class="navbar-brand" href="index.html">Hafıza Oyunu</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="mr-3" id="navbarNav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					&nbsp; &nbsp;
+					<li class="nav-item">
+						<div class="moves-counter">0</div> MOVES
+					</li>
+					&nbsp; &nbsp;
+					<li class="nav-item">
+						<div class="score">0</div> BEST SCORE
+					</li>
+					&nbsp; &nbsp;
+					<li class="nav-item mr-2">
+						<input type="button" id="button1" value="RESET" onclick="resetgame()"
+							class="btn btn-outline-success mr-sm-2 reset-btn">
+					</li>
+					&nbsp; &nbsp;
+					<li class="nav-item my-2 my-lg-0">
+						<input type="button" id="button2" value="OYUNU BAŞLAT" onclick="baslat(this)"
+							class="btn btn-outline-success mr-sm-2">
+					</li>
+			</div>
+		</nav>
+	</div>
+	<div class="py-5 border-bottom-dark">
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 ">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+			</div>
+		</div>
+		<div class="container mt-1">
+			<div class="row justify-content-md-center">
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 ">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+			</div>
+		</div>
+
+		<div class="container mt-1">
+			<div class="row justify-content-md-center">
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 col-lg-2">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+				<div class="col-3 ">
+					<img src="img/end.png" onclick="tiklandi(this)" id="1" name="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer mt-auto py-3 bg-light">
+		<div class="container">
+			<span class="text-muted">Dilek Şekerci</span>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
