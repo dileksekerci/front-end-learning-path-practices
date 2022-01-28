@@ -1,0 +1,23 @@
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.yazikutusu{
+            width: 25%;
+}
+
+.satir1 {
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.satir2 {
+    text-align: center;
+    background-color: #7ee5da; 
+}
+
+p {
+    text-align: center;
+}

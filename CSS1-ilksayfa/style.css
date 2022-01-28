@@ -1,0 +1,55 @@
+h1 {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    color: darkviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+nav {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+ul, ol {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.metin {
+    text-align: left;
+}
+
+.baslik {
+        text-align: left;
+}
+
+
+
+
+
