@@ -17,4 +17,4 @@ Ayrıca bir oyunu Başlatma ve Resetleme butonu bulunmaktadır.
 
 ![oyun genel görünümü](https://user-images.githubusercontent.com/89838610/142774094-9f846a4d-3188-414a-889e-7985d54128dc.png)
 ##
->Dilek Şekerci tarafından Patika Bitirme Projesi Olarak Yapılmıştır.
+>Dilek Şekerci tarafından İSMEK Frontend Patikası Bitirme Projesi Olarak Yapılmıştır.
